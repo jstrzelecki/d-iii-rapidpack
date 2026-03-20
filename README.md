@@ -84,3 +84,23 @@ Wasze testy muszą pokryć co najmniej te przypadki:
 2.  Dodajcie Webhooka w ustawieniach repozytorium (link na Discordzie).
 3.  Ustalcie podział ról na Discordzie.
 4.  Powodzenia! Niech kod będzie z Wami! 💻
+
+---
+# KANBAN
+## Konfiguracja
+Zanim napiszą pierwszą linijkę kodu, muszą:
+- Wejść w zakładkę `Projects` w swoim repozytorium na GitHubie i utworzyć nową tablicę (szablon "Board" - Todo, In Progress, Done).
+- Przeczytać e-mail od klienta (z pliku `README`).
+- Rozbić ten e-mail na małe zadania, tworząc `Issues `(Problemy/Zadania).
+- Dodać te `Issues` do tablicy Kanban i przypisać do konkretnej osoby (Assignees) – Dev A lub Dev B.
+
+## Przykładowe zadania
+Przykładowe zadania (Issues), które powinni sami wywnioskować z maila:
+- [UI] Stworzenie szkieletu okna (Grid, StackPanel) i podział na sekcje.
+- [UI] Dodanie kontrolek wejściowych: waga (TextBox) i wymiary (TextBox).
+- [Logika] Stworzenie klasy ParcelCalculator z metodą obliczającą cenę bazową i dopłatę za kilogramy.
+-[Logika] Napisanie testu xUnit dla paczki ważącej powyżej 30 kg (oczekiwany błąd).
+-[Logika] Implementacja opłaty gabarytowej (+50% jeśli suma wymiarów > 150 cm) + testy.
+- [Integracja] Podpięcie zdarzenia kliknięcia przycisku "Wyceń" do logiki kalkulatora.
+
+  
